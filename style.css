@@ -154,3 +154,13 @@ a{
 	position: relative;
 	top: 252px;
 }
+
+
+@media only screen and (max-width : 996px) {
+	.line__search{
+		width: 250px;
+	}
+	.header__texts{
+		padding-right: 20px;
+	}
+}
