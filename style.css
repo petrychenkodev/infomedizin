@@ -281,7 +281,7 @@ a{
 }
 @media only screen and (max-width : 560px) {
 .question__lp, .question__p, .question__header, .question__pictures{
-	width: 380px;
+	width: 360px;
 }
 .question{
 	margin-left: 5px;
@@ -289,3 +289,84 @@ a{
 }
 }
 
+
+.comments{
+	width: 700px;
+	margin: 100px 200px 50px 200px;
+}
+.comments__h{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 24px;
+	line-height: 48px;
+}
+.comments__face{
+	display: inline-block;
+	margin-right: 10px;
+}
+.comments__name{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 48px;
+	font-weight: bold;
+	display: inline;
+}
+.comments__date{
+	display: inline-block;
+	float: right;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+}
+.comments__p{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	margin: 10px;
+}
+.comments__p a{
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #0d4a7e;
+	text-decoration: underline;
+}
+.comments__1{
+	position: relative;
+	margin-bottom: 40px;
+}
+.comments__ph{
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+@media only screen and (max-width : 930px) {
+.comments{
+	width: 500px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+}
+@media only screen and (max-width : 645px) {
+.comments{
+	width: 500px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+}
+@media only screen and (max-width : 540px) {
+.comments{
+	width: 300px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+}
+@media only screen and (max-width : 540px) {
+body{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.question{
+	margin-top: 20px;
+	}}
